@@ -1,0 +1,49 @@
+body{
+    background: url("bg2.jpg")no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover ;
+}
+h1{
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    color: rgb(33, 53, 2);
+    padding: 30px;
+    
+}
+
+.container{
+    /*background-image: url("./mars3.jpg");*/
+    margin-top:30px;
+    
+    box-shadow: 10px 10px 50px #1d1c1c, 
+    -10px -10px 60px #464444;
+/* height: 600px;*/
+}
+
+.row1{
+    padding:20px;
+}
+
+.results{
+    margin-top:30px;
+    margin-left: 60px;
+}
+
+.btn{
+    margin-right:20px;
+    margin-left: 40px;
+}
+
+label{
+    font-family: 'Itim', cursive;
+    font-size: 20px;
+    color: rgb(247, 247, 247);
+}
+
+#result{
+    font-size: 30px;
+    font-family: 'Original Surfer', cursive;
+    
+}
