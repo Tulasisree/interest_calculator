@@ -34,7 +34,7 @@ function selected(){
 
 function calculate(){
 var interest_type=document.getElementById('interest_type').value;
-var P = document.getElementById('pi').value;
+var P = document.getElementById('rval').value;
 var r = document.getElementById('rate').value;
 var unit = document.getElementById('period_unit').value;
 var period = document.getElementById('period').value;
