@@ -79,7 +79,9 @@ var interest = eval((A-P)/t)
 
 result.innerText = "The interest is "+(interest).toFixed(3);
 
-if(document.getElementById('container').innerHTML==''){
+if(document.getElementById('container').innerHTML!=''){
+    document.getElementById('container').innerHTML='';
+}
 
 var data=[
    {x:'Principal',value:P},
@@ -93,7 +95,6 @@ chart.title("Interest chart");
 
   chart.container('container');
   chart.draw();
-}
 }
 
 function showval(){
