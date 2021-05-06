@@ -5,6 +5,8 @@ function selected(){
     var x = document.getElementById('show').innerHTML==="";
     if(interest_type=='Compound Interest'  && x){
         var tp=document.createElement("select");
+        var lb = document.createElement("label");
+        lb.innerText="Compound Frequency";
         tp.id='cf';
         tp.className='form-control';
         var option1 = document.createElement("option");
@@ -21,6 +23,7 @@ function selected(){
         option5.text="Half-Yearly";
         option6.text="Annually";
         tp.add(option1);tp.add(option2);tp.add(option4);tp.add(option5);tp.add(option6);
+        document.getElementById('show').appendChild(lb);
         document.getElementById('show').appendChild(tp);
     }
     if(interest_type=='Simple Interest' && !x){
